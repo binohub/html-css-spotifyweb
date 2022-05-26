@@ -218,12 +218,16 @@ main
 /*! ##### FOOTER ###### */
 footer 
 {
+    display: flex;
+
+
     background-color: black;
     color: white;
     height: 10vh;
     width: 100%;
     position: absolute;
     bottom: 0px;
+
 }
 .top-footer
 {
@@ -233,4 +237,39 @@ footer
     /* background-color: orangered; */
     /* display: flex; */
 }
+footer section
+{
+    width: 20%;
+    height: 100%;
+    background-color: hotpink;
+    padding: 10px;
+}
+footer section div
+{
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+footer section div img
+{
+    max-height: 40px;
+    padding: 5px;
+}
+footer section div span
+{
+    display: block;
+    font-size: 0.5rem;
+}
+footer section div i
+{
+    font-size: 0.5rem;
+}
+.play
+{
+    width: 60%;
+    height: 100%;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
 
