@@ -28,6 +28,13 @@
     /*todo justify-content:; */
     /*todo align-items: ; */
 }
+.aside-c1-column
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px 20px 10px;
+}
 
 /*? ##### BUTTONS ##### */
 .btn 
@@ -99,6 +106,18 @@ aside
     width: 20vw;
     height: 90vh;
 }
+
+.aside-header 
+{
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+}
+.aside-header img
+{
+    width: 100px;
+}
+
+
 /*! ##### BODY ###### */
 body 
 {
@@ -110,12 +129,7 @@ body
     height: 90vh;
     width: 100%;
 }
-/*! ##### ASIDE-HEADER ###### */
-.aside-header 
-{
-    background-color: rgb(0, 0, 0);
-    height: 10vh;
-}
+
 /*! ##### HEADER ###### */
 header 
 {
