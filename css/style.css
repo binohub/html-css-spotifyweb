@@ -54,6 +54,7 @@
 .btn-upgrade:hover 
 {
     transform: scale(1.2);
+    cursor: pointer;
 }
 .large-btn 
 {
@@ -129,6 +130,7 @@ body
     background-color: red;
     height: 90vh;
     width: 100%;
+    overflow: auto;
 }
 
 /*! ##### HEADER ###### */
