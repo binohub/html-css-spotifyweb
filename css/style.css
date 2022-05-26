@@ -239,6 +239,9 @@ footer
 }
 footer section
 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 20%;
     height: 100%;
     background-color: hotpink;
@@ -246,14 +249,26 @@ footer section
 }
 footer section div
 {
-    padding-right: 10px;
-    display: inline-block;
-    vertical-align: middle;
+    cursor: pointer;
+}
+footer section div .volume-full
+{
+    background-color: lightgoldenrodyellow;
+    height: 4px;
+    width: 100px;
+    border-radius: 50px;
+}
+footer section div .volume-real
+{
+    background-color: green;
+    height: 4px;
+    width: 60%;
+    border-radius: 50px;
 }
 footer section div img
 {
     max-height: 40px;
-    padding: 5px;
+
 }
 footer section div span
 {
@@ -263,6 +278,7 @@ footer section div span
 footer section div i
 {
     font-size: 0.5rem;
+    margin: 0 5px;
 }
 .play
 {
