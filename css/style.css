@@ -5,6 +5,10 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
 }
 
 
@@ -13,11 +17,11 @@
 /*? ##### CONTAINERS ##### */
 .c1-row /* ###### CONTAINER-1-ROW ###### */
 {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: start;
-    background-color: blue;
+    width: 95%;
+    margin: 10px auto;
+    /* display: flex; */
+    /* justify-content: start; */
+    background-color: purple;
     /*todo align-items: ; */
 }
 .c1-column /* ###### CONTAINER-1-COLUMN ###### */
@@ -44,7 +48,11 @@
     justify-content: space-between;
     height: calc(100% - 60px);
 }
-
+.sb
+{
+    display: flex;
+    justify-content: space-between;
+}
 /*? ##### BUTTONS ##### */
 .btn-upgrade
 {
@@ -110,6 +118,21 @@
 {
     font-weight: 900;
 }
+h4
+{
+    color: white;
+}
+h2
+{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+span
+{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
 
 /*! ##### ASIDE ###### */
 aside
@@ -135,8 +158,6 @@ aside
 
 a *
 {
-    list-style-type: none;
-    text-decoration: none;
     color: gray;
     font-size: 0.6rem;
 }
@@ -154,10 +175,7 @@ a *
     height: 100%;
     overflow: auto;
 }
-h4
-{
-    color: white;
-}
+
 .aside-playlist a
 {
     background-color: red;
@@ -270,6 +288,28 @@ main
     display: inline-block;
     margin: 20px 5px;
 }
+.squares
+{
+    display: flex;
+}
+.square
+{
+    width: calc(100% / 6);
+    margin: 10px;
+    background-color: blue;
+    text-align: center;
+}
+.square-top
+{
+    width: 100%;
+    background-color: red;
+}
+.square-top img
+{
+    width: 100%;
+
+}
+
 
 /*! ##### FOOTER ###### */
 footer 
@@ -283,8 +323,8 @@ footer
     width: 100%;
     position: absolute;
     bottom: 0px;
-
 }
+
 .top-footer
 {
     /* height: 80px; */
