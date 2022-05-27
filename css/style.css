@@ -505,10 +505,10 @@ footer section div i {
 
     footer 
     {
-        min-width: 570px;
+        min-width: 520px;
     }
     .library
     {
-        min-width: 520px;
+        min-width: calc(520px - 50px);
     }
 }
