@@ -410,6 +410,9 @@ footer section div i {
 
     .main-nav ul {
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .square {
