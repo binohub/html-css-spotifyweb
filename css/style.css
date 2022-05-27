@@ -133,21 +133,46 @@ aside
     background-color: aliceblue;
 }
 
-a
+a *
 {
     list-style-type: none;
     text-decoration: none;
     color: gray;
+    font-size: 0.6rem;
 }
 .aside-nav ul a li
 {
     margin-top: 10px;
 }
+
+
+
 .aside-playlist
 {
     background-color: blue;
+    min-height: 100px;
     height: 100%;
+    overflow: auto;
 }
+h4
+{
+    color: white;
+}
+.aside-playlist a
+{
+    background-color: red;
+    font-size: 1.2rem;
+}
+.aside-playlist i
+{
+    padding-right: 20px;
+}
+.aside-playlist a li
+{
+    margin: 10px 0px;
+}
+
+
 .aside-footer
 {
 }
@@ -244,7 +269,6 @@ main
 {
     display: inline-block;
     margin: 20px 5px;
-    font-size: 0.6rem;
 }
 
 /*! ##### FOOTER ###### */
